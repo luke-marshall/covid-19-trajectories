@@ -49,11 +49,6 @@ with open('country.csv', mode='w') as regional_file:
         
 
 # Generate plot.
-# df = px.data.gapminder().query("continent != 'Asia'") # remove Asia for visibility
-# print(df)
-# fig = px.line(df, x="year", y="lifeExp", color="country",
-#               line_group="country", hover_name="country")
-# fig.show()
 
 fig = go.Figure()
 for line in output_lines:
